@@ -22,6 +22,6 @@ variable "availability_zones" {
   type    = list(string)
 }
 
-variable "key_name" {
+variable "ssh_key_name" {
   type    = string
 }

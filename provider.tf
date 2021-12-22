@@ -3,7 +3,7 @@ provider "aws" {
     profile = "nividata"
     default_tags {
         tags = {
-          Project  = "groenzoeken"
+          Project  = "project-name"
         }
     }
 }
